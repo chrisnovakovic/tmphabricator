@@ -1,8 +1,6 @@
 <?php
 
 // TM CHANGES BEGIN: Adding JWT imports.
-require_once('../../../../externals/autoload.php');
-
 use SimpleJWT\JWT;
 use SimpleJWT\Keys\KeySet;
 use SimpleJWT\InvalidTokenException;
